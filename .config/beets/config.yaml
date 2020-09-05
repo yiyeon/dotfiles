@@ -1,0 +1,17 @@
+directory: /media/share/Music
+ui:
+    color: yes
+import:
+    write: yes
+    move: yes
+    languages: en jp kr
+    autotag: no
+plugins: extrafiles
+extrafiles:
+    patterns:
+        cue: '*.cue*'
+        log: '*.log*'
+        jpg: '*.jpg*'
+        png: '*.png*'
+paths:
+    default: $albumartist/$album%aunique{}/$track $title
