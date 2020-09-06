@@ -1,0 +1,10 @@
+--add-metadata 
+
+--audio-quality 0
+--format mp4
+--merge-output-format mkv
+
+--write-thumbnail  
+--yes-playlist 
+
+-o '%(channel)s/%(playlist)s/%(playlist_index)s (title)s'
